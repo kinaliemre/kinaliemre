@@ -32,10 +32,10 @@
 
 <p align="center">
   <sub>
-    <a href="https://github.com/kinaliemre/JavaProje">Java Task Manager</a> &nbsp;·&nbsp;
-    <a href="https://github.com/kinaliemre/MixGame">MixGame</a> &nbsp;·&nbsp;
     <a href="https://github.com/kinaliemre/Airport-Flight-Management-System">Airport Flight Management System</a> &nbsp;·&nbsp;
-    <a href="https://github.com/kinaliemre/TODO--APP">TODO App</a>
+    <a href="https://github.com/kinaliemre/TODO--APP">TODO App</a> &nbsp;·&nbsp;
+    <a href="https://github.com/kinaliemre/JavaProje">Java Task Manager</a> &nbsp;·&nbsp;
+    <a href="https://github.com/kinaliemre/MixGame">MixGame</a>
   </sub>
 </p>
 
