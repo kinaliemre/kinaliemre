@@ -1,0 +1,53 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: "5 * * * *"     # every hour
+  push:
+    paths:
+      - profile.json
+      - scripts/**
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build README and cards from live data
+        env:
+          # PROFILE_TOKEN (repository secret) lets the script count commits in
+          # private and team repos. Without it only public commits are counted.
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -z "$PROFILE_TOKEN" ]; then
+            echo "PROFILE_TOKEN is not set, so private commits can't be counted."
+            echo "Keeping the current cards. Add the secret to turn on live updates."
+            exit 0
+          fi
+          python scripts/build_profile.py
+
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet -- README.md assets; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets
+          git commit -m "Update profile"
+          git push
