@@ -1,0 +1,217 @@
+{
+  "user": "kinaliemre",
+  "aliases": [
+    "XANATORR"
+  ],
+  "author_emails": [
+    "emrecan5386@gmail.com"
+  ],
+  "since": "2025-08-01",
+  "utc_offset_hours": 3,
+  "name": "Emre Can Kınalı",
+  "subtitle": "Computer Engineering student at İstanbul Arel University",
+  "about": [
+    "I build web apps with React, Python and Go,",
+    "from the database and backend to the interface.",
+    "I also worked on a C++ parking simulation with my team."
+  ],
+  "email": "emrecan5386@gmail.com",
+  "exclude_repos": [
+    "kinaliemre/kinaliemre"
+  ],
+  "hide_from_history": [
+    "c41451b3af00337a",
+    "b46b37fc69cd69ee",
+    "d1cc19f0d7a4c7a6",
+    "78a928449e316cb4",
+    "a853f172b4e34bd5"
+  ],
+  "projects": {
+    "kinaliemre/SonSat-r": {
+      "title": "SonSatır",
+      "desc": "Turkish typing race with a one-minute timer mode and a shared leaderboard",
+      "tags": [
+        "javascript",
+        "python",
+        "sqlite"
+      ]
+    },
+    "kinaliemre/Pin.Kod": {
+      "title": "Pin-Kod",
+      "desc": "",
+      "tags": []
+    },
+    "kinaliemre/MixGame": {
+      "title": "MixGame",
+      "desc": "101 Okey in the browser: tile dealing and opening-score analysis",
+      "tags": [
+        "typescript",
+        "react",
+        "vite"
+      ]
+    },
+    "kinaliemre/Airport-Flight-Management-System": {
+      "title": "Airport Flight Management System",
+      "desc": "Admin, pilot and cabin crew roles, with schedule-conflict checks",
+      "tags": [
+        "python",
+        "flask",
+        "sqlite",
+        "pytest"
+      ]
+    },
+    "sudoeren/adas": {
+      "title": "ADAS Parking Simulation",
+      "desc": "My part: rear camera, reverse mode and the sensor panel",
+      "tags": [
+        "c++17",
+        "raylib",
+        "cmake"
+      ]
+    },
+    "kinaliemre/TODO--APP": {
+      "title": "TODO App",
+      "desc": "To-do app with a FastAPI backend and a desktop launcher",
+      "tags": [
+        "react",
+        "fastapi",
+        "sqlite"
+      ]
+    },
+    "kinaliemre/JavaProje": {
+      "title": "Java Task Manager",
+      "desc": "Tasks, deadlines and notifications, saved to CSV, tested with JUnit",
+      "tags": [
+        "java",
+        "junit"
+      ]
+    },
+    "XANATORR/blackjack-oyun": {
+      "title": "First commit",
+      "desc": "A small blackjack game in Python",
+      "tags": [
+        "python"
+      ]
+    }
+  },
+  "stack": [
+    [
+      "Web",
+      [
+        "React, Vite, TypeScript",
+        "Flask, FastAPI, Go",
+        "Node.js, HTML, CSS"
+      ]
+    ],
+    [
+      "Databases",
+      [
+        "PostgreSQL, SQLite",
+        "SQL, migrations"
+      ]
+    ],
+    [
+      "Systems",
+      [
+        "C++17, C",
+        "GCC, CMake, Raylib"
+      ]
+    ],
+    [
+      "Machine learning",
+      [
+        "PyTorch, Keras, scikit-learn",
+        "NumPy, pandas, Matplotlib",
+        "Jupyter, RapidMiner"
+      ]
+    ],
+    [
+      "DevOps",
+      [
+        "Docker, Docker Compose",
+        "WSL2 (Ubuntu), Caddy",
+        "GitHub Actions"
+      ]
+    ],
+    [
+      "Testing",
+      [
+        "pytest, JUnit, go test"
+      ]
+    ],
+    [
+      "Security",
+      [
+        "Password hashing, role-based access",
+        "HttpOnly session cookies",
+        "OAuth sign-in"
+      ]
+    ],
+    [
+      "Tools",
+      [
+        "Git, GitHub",
+        "VS Code, Eclipse"
+      ]
+    ],
+    [
+      "Docs & design",
+      [
+        "LaTeX, TikZ",
+        "draw.io, UML"
+      ]
+    ]
+  ],
+  "skills": [
+    [
+      "Full-stack web apps",
+      "React + TypeScript frontends, APIs in Go, Flask, FastAPI",
+      "Airport, TODO App, MixGame, SonSatır"
+    ],
+    [
+      "Security & auth",
+      "Password hashing, role-based access, HttpOnly sessions",
+      "Airport Flight Management, SonSatır"
+    ],
+    [
+      "Database design",
+      "PostgreSQL migrations, schema design, SQL",
+      "Airport Flight Management, SonSatır"
+    ],
+    [
+      "Docker & Linux",
+      "Docker Compose, multi-stage Dockerfiles, WSL2",
+      ""
+    ],
+    [
+      "C / C++",
+      "C++17 with Raylib and CMake, OOP and data structures",
+      "ADAS Parking Simulation, data structures coursework"
+    ],
+    [
+      "Machine learning",
+      "Regression, classification, neural networks",
+      "Deep Learning course (scikit-learn, Keras)"
+    ],
+    [
+      "CI & testing",
+      "GitHub Actions, pytest, JUnit, go test",
+      "SonSatır, MixGame, Airport, Java Task Manager"
+    ],
+    [
+      "Reports & diagrams",
+      "LaTeX reports and UML diagrams",
+      "draw.io and TikZ: use case, activity, class, sequence"
+    ]
+  ],
+  "spoken": "Turkish (native) · English",
+  "archived_commits": [
+    {
+      "repo": "XANATORR/blackjack-oyun",
+      "date": "2025-08-12",
+      "count": 1,
+      "sha": "cd25ffe",
+      "private": true
+    }
+  ]
+}
