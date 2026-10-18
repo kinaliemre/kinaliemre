@@ -202,7 +202,7 @@ LIGHT = {
     "#0d1117": "#ffffff", TILE: "#f6f8fa", STROKE: "#d0d7de", EMPTY: "#ebedf0",
     TXT: "#1f2328", SUB: "#424a53", DIM: "#59636e", FAINT: "#818b98",
     GREEN: "#1a7f37", GREEN_DARK: "#1f883d", "#238636": "#1f883d",
-    "#d29922": "#9a6700", "#3b2e0a": "#f5e0a8",
+    "#d29922": "#9a6700", "#3b2e0a": "#f5e0a8", "#58a6ff": "#0969da",
     "#0e4429": "#9be9a8", "#006d32": "#40c463", "#26a641": "#30a14e", "#39d353": "#216e39",
 }
 
@@ -340,13 +340,20 @@ def build_month(today, events):
     write_svg("activity.svg", W, H, f"{month_label(today.year, today.month, True)}: {note}", b)
 
 
-AMBER = "#d29922"
+AMBER, BLUE = "#d29922", "#58a6ff"
+STATUS_LABEL = {"active": ("in progress", AMBER), "paused": ("paused", BLUE), "done": ("completed", GREEN)}
 
 
-def status_icon(cx, cy, active, r=8):
+def status_icon(cx, cy, status, r=8):
     """Animated status mark (SMIL, so it also moves inside GitHub's <img>).
-    In progress: an amber loading spinner. Completed: a green check that draws itself."""
-    if active:
+    In progress: an amber loading spinner. Paused: a blue pause sign that slowly
+    fades in and out. Completed: a green check that draws itself."""
+    if status == "paused":
+        fade = '<animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>'
+        return [f'<g>{fade}<circle cx="{cx}" cy="{cy}" r="{r - 1}" fill="none" stroke="{BLUE}" stroke-width="2"/>',
+                f'<rect x="{cx - 2.6}" y="{cy - 3}" width="1.8" height="6" rx="0.6" fill="{BLUE}"/>',
+                f'<rect x="{cx + 0.8}" y="{cy - 3}" width="1.8" height="6" rx="0.6" fill="{BLUE}"/></g>']
+    if status == "active":
         arc = 2 * 3.1416 * (r - 1)
         return [f'<circle cx="{cx}" cy="{cy}" r="{r - 1}" fill="none" stroke="#3b2e0a" stroke-width="2.4"/>',
                 f'<circle cx="{cx}" cy="{cy}" r="{r - 1}" fill="none" stroke="{AMBER}" stroke-width="2.4" '
@@ -360,12 +367,13 @@ def status_icon(cx, cy, active, r=8):
             f'<animate attributeName="stroke-dashoffset" values="12;0;0" keyTimes="0;0.2;1" dur="3s" repeatCount="indefinite"/></path>']
 
 
-def is_active(repo, last_day, today):
-    """A project is in progress if profile.json says so, else if I committed to it recently."""
+def project_status(repo, last_day, today):
+    """"active", "paused" or "done": profile.json decides when it says so,
+    otherwise a project is active if I committed to it recently."""
     status = CFG["projects"].get(repo, {}).get("status")
-    if status:
-        return status != "done"
-    return (today - last_day).days <= CFG.get("active_days", 30)
+    if status in STATUS_LABEL:
+        return status
+    return "active" if (today - last_day).days <= CFG.get("active_days", 30) else "done"
 
 
 def build_history(events, private, today):
@@ -386,19 +394,19 @@ def build_history(events, private, today):
         sha = None if private.get(r) else (last_sha.get(r) or "")[:7] or None
         # "finished": "YYYY-MM" marks a completed project: later maintenance commits
         # still count in the totals but don't move it up or mark it in progress
-        when, active = last[r], is_active(r, last[r], today)
+        when, status = last[r], project_status(r, last[r], today)
         if p.get("finished"):
-            when, active = min(last[r], dt.date.fromisoformat(p["finished"] + "-28")), False
+            when, status = min(last[r], dt.date.fromisoformat(p["finished"] + "-28")), "done"
         dated.append((when, (f"{when:%b %Y}", p.get("title", r.split("/")[1]), p.get("desc", ""),
-                             " · ".join(p.get("tags", [])), badge, sha, active)))
+                             " · ".join(p.get("tags", [])), badge, sha, status)))
     dated.sort(key=lambda kv: kv[0], reverse=True)
-    rows = ([("now", now["title"], now["desc"], " · ".join(now["tags"]), "", None, True)] if now else [])
+    rows = ([("now", now["title"], now["desc"], " · ".join(now["tags"]), "", None, "active")] if now else [])
     rows += [row for _, row in dated]
 
     TH, GAP, TX, LX, TOP = 92, 10, 132, 108, 0
     HH = TOP + len(rows) * (TH + GAP) - GAP
     h = [f'<line x1="{LX}" y1="{TOP + TH / 2}" x2="{LX}" y2="{HH - TH / 2}" stroke="{STROKE}" stroke-width="2"/>']
-    for i, (date, title, desc, tags, badge, sha, active) in enumerate(rows):
+    for i, (date, title, desc, tags, badge, sha, status) in enumerate(rows):
         y0, now_row = TOP + i * (TH + GAP), date == "now"
         cy = y0 + TH / 2
         h.append(t(LX - 18, cy + 4, date, SUB if now_row else DIM, 12, 500, anchor="end", font=MONO))
@@ -416,8 +424,8 @@ def build_history(events, private, today):
         else:
             h.append(t(820, y0 + 30, "in progress", AMBER, 12, 600, anchor="end"))
         # status under the public/private label
-        label, col = ("in progress", AMBER) if active else ("completed", GREEN)
-        h += status_icon(820 - len(label) * 6.6 - 14, y0 + 52, active, 7)
+        label, col = STATUS_LABEL[status]
+        h += status_icon(820 - len(label) * 6.6 - 14, y0 + 52, status, 7)
         h.append(t(820, y0 + 56.5, label, col, 12, 600, anchor="end"))
         if sha:
             h.append(t(820, y0 + 78, sha, FAINT, 12, anchor="end", font=MONO))
@@ -427,7 +435,7 @@ def build_history(events, private, today):
             h.append(t(TX + 20, y0 + 76, tags, FAINT, 12, font=MONO) if desc else
                      t(TX + 20, y0 + 56, tags, DIM, 12.5, font=MONO))   # no description: tags move up
     write_svg("history.svg", 840, HH, "Project history: " + ", ".join(
-        f"{r[1]} ({'in progress' if r[6] else 'completed'})" for r in rows), h)
+        f"{r[1]} ({STATUS_LABEL[r[6]][0]})" for r in rows), h)
     return [r for r in repos if not private.get(r)]
 
 

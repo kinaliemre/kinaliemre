@@ -48,7 +48,8 @@
         "typescript",
         "react",
         "vite"
-      ]
+      ],
+      "status": "paused"
     },
     "kinaliemre/Airport-Flight-Management-System": {
       "title": "Airport Flight Management System",
