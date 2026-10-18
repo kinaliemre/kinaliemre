@@ -347,12 +347,14 @@ def is_active(repo, last_day, today):
 
 
 def build_history(events, private, today):
-    last, first, last_sha = {}, {}, {}
+    last, first, last_sha, sha_day = {}, {}, {}, {}
+    # sorted() is stable and every source lists commits newest first, so within one
+    # day the first sha we meet is that day's latest commit
     for d, repo, _, sha in sorted(events, key=lambda e: e[0]):
         first.setdefault(repo, d)
         last[repo] = d
-        if sha:
-            last_sha[repo] = sha
+        if sha and sha_day.get(repo) != d:
+            last_sha[repo], sha_day[repo] = sha, d
     repos = sorted((r for r in last if shown(r)), key=lambda r: (last[r], first[r]), reverse=True)
     now = CFG.get("now")
     dated = []
