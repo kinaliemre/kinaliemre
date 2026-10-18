@@ -9,7 +9,7 @@
   <circle cx="733.4" cy="52" r="6" fill="none" stroke="#3b2e0a" stroke-width="2.4"/>
   <circle cx="733.4" cy="52" r="6" fill="none" stroke="#d29922" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="11.3 37.7"><animateTransform attributeName="transform" type="rotate" from="0 733.4 52" to="360 733.4 52" dur="0.9s" repeatCount="indefinite"/></circle>
   <text x="820" y="56.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#d29922">in progress</text>
-  <text x="820" y="78" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">cfade10</text>
+  <text x="820" y="78" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">b32458b</text>
   <text x="152" y="53" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">Admin, pilot and cabin crew roles, with schedule-conflict checks</text>
   <text x="152" y="76" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">python · flask · sqlite · pytest</text>
   <text x="90" y="152.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Oct 2026</text>
@@ -21,7 +21,7 @@
   <circle cx="733.4" cy="154" r="6" fill="none" stroke="#3b2e0a" stroke-width="2.4"/>
   <circle cx="733.4" cy="154" r="6" fill="none" stroke="#d29922" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="11.3 37.7"><animateTransform attributeName="transform" type="rotate" from="0 733.4 154" to="360 733.4 154" dur="0.9s" repeatCount="indefinite"/></circle>
   <text x="820" y="158.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#d29922">in progress</text>
-  <text x="820" y="180" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">b51cc61</text>
+  <text x="820" y="180" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">6497786</text>
   <text x="152" y="155" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">To-do app with a FastAPI backend and a desktop launcher</text>
   <text x="152" y="178" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">react · fastapi · sqlite</text>
   <text x="90" y="254.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Oct 2026</text>
@@ -33,7 +33,7 @@
   <circle cx="733.4" cy="256" r="6" fill="none" stroke="#3b2e0a" stroke-width="2.4"/>
   <circle cx="733.4" cy="256" r="6" fill="none" stroke="#d29922" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="11.3 37.7"><animateTransform attributeName="transform" type="rotate" from="0 733.4 256" to="360 733.4 256" dur="0.9s" repeatCount="indefinite"/></circle>
   <text x="820" y="260.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#d29922">in progress</text>
-  <text x="820" y="282" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">5c50533</text>
+  <text x="820" y="282" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">a293393</text>
   <text x="152" y="257" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">Tasks, deadlines and notifications, saved to CSV, tested with JUnit</text>
   <text x="152" y="280" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">java · junit</text>
   <text x="90" y="356.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Oct 2026</text>
