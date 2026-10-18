@@ -384,8 +384,13 @@ def build_history(events, private, today):
         p = CFG["projects"].get(r, {})
         badge = ("team project · " if not is_own(r) else "") + ("private" if private.get(r) else "public")
         sha = None if private.get(r) else (last_sha.get(r) or "")[:7] or None
-        dated.append((last[r], (f"{last[r]:%b %Y}", p.get("title", r.split("/")[1]), p.get("desc", ""),
-                                " · ".join(p.get("tags", [])), badge, sha, is_active(r, last[r], today))))
+        # "finished": "YYYY-MM" marks a completed project: later maintenance commits
+        # still count in the totals but don't move it up or mark it in progress
+        when, active = last[r], is_active(r, last[r], today)
+        if p.get("finished"):
+            when, active = min(last[r], dt.date.fromisoformat(p["finished"] + "-28")), False
+        dated.append((when, (f"{when:%b %Y}", p.get("title", r.split("/")[1]), p.get("desc", ""),
+                             " · ".join(p.get("tags", [])), badge, sha, active)))
     dated.sort(key=lambda kv: kv[0], reverse=True)
     rows = ([("now", now["title"], now["desc"], " · ".join(now["tags"]), "", None, True)] if now else [])
     rows += [row for _, row in dated]

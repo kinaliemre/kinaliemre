@@ -58,7 +58,8 @@
         "flask",
         "sqlite",
         "pytest"
-      ]
+      ],
+      "finished": "2026-05"
     },
     "sudoeren/adas": {
       "title": "ADAS Parking Simulation",
@@ -76,7 +77,8 @@
         "react",
         "fastapi",
         "sqlite"
-      ]
+      ],
+      "finished": "2026-03"
     },
     "kinaliemre/JavaProje": {
       "title": "Java Task Manager",
@@ -84,7 +86,8 @@
       "tags": [
         "java",
         "junit"
-      ]
+      ],
+      "finished": "2026-01"
     },
     "XANATORR/blackjack-oyun": {
       "title": "First commit",
