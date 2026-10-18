@@ -1,85 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="806" viewBox="0 0 840 806" role="img" aria-label="Project history: Airport Flight Management System (in progress), TODO App (in progress), Java Task Manager (in progress), SonSatır (in progress), Pin-Kod (in progress), MixGame (completed), ADAS Parking Simulation (completed), First commit (completed)">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="806" viewBox="0 0 840 806" role="img" aria-label="Project history: SonSatır (in progress), Pin-Kod (in progress), MixGame (completed), Airport Flight Management System (completed), ADAS Parking Simulation (completed), TODO App (completed), Java Task Manager (completed), First commit (completed)">
   <line x1="108" y1="46.0" x2="108" y2="760.0" stroke="#30363d" stroke-width="2"/>
   <text x="90" y="50.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Oct 2026</text>
   <circle cx="108" cy="46.0" r="5" fill="#8b949e" stroke="#0d1117" stroke-width="2"/>
   <rect x="132.5" y="0.5" width="707" height="91" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="152" y="30" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">Airport Flight Management System</text>
-  <rect x="760" y="16" width="60" height="20" rx="10" fill="none" stroke="#3fb950"/>
-  <text x="790.0" y="30" text-anchor="middle" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600" fill="#3fb950">public</text>
+  <text x="152" y="30" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">SonSatır</text>
+  <rect x="753" y="16" width="67" height="20" rx="10" fill="none" stroke="#8b949e"/>
+  <text x="786.5" y="30" text-anchor="middle" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600" fill="#8b949e">private</text>
   <circle cx="733.4" cy="52" r="6" fill="none" stroke="#3b2e0a" stroke-width="2.4"/>
   <circle cx="733.4" cy="52" r="6" fill="none" stroke="#d29922" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="11.3 37.7"><animateTransform attributeName="transform" type="rotate" from="0 733.4 52" to="360 733.4 52" dur="0.9s" repeatCount="indefinite"/></circle>
   <text x="820" y="56.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#d29922">in progress</text>
-  <text x="820" y="78" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">b32458b</text>
-  <text x="152" y="53" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">Admin, pilot and cabin crew roles, with schedule-conflict checks</text>
-  <text x="152" y="76" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">python · flask · sqlite · pytest</text>
+  <text x="152" y="53" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">Turkish typing race with a one-minute timer mode and a shared leaderboard</text>
+  <text x="152" y="76" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">javascript · python · sqlite</text>
   <text x="90" y="152.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Oct 2026</text>
   <circle cx="108" cy="148.0" r="5" fill="#8b949e" stroke="#0d1117" stroke-width="2"/>
   <rect x="132.5" y="102.5" width="707" height="91" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="152" y="132" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">TODO App</text>
-  <rect x="760" y="118" width="60" height="20" rx="10" fill="none" stroke="#3fb950"/>
-  <text x="790.0" y="132" text-anchor="middle" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600" fill="#3fb950">public</text>
+  <text x="152" y="132" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">Pin-Kod</text>
+  <rect x="753" y="118" width="67" height="20" rx="10" fill="none" stroke="#8b949e"/>
+  <text x="786.5" y="132" text-anchor="middle" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600" fill="#8b949e">private</text>
   <circle cx="733.4" cy="154" r="6" fill="none" stroke="#3b2e0a" stroke-width="2.4"/>
   <circle cx="733.4" cy="154" r="6" fill="none" stroke="#d29922" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="11.3 37.7"><animateTransform attributeName="transform" type="rotate" from="0 733.4 154" to="360 733.4 154" dur="0.9s" repeatCount="indefinite"/></circle>
   <text x="820" y="158.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#d29922">in progress</text>
-  <text x="820" y="180" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">6497786</text>
-  <text x="152" y="155" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">To-do app with a FastAPI backend and a desktop launcher</text>
-  <text x="152" y="178" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">react · fastapi · sqlite</text>
-  <text x="90" y="254.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Oct 2026</text>
+  <text x="90" y="254.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Aug 2026</text>
   <circle cx="108" cy="250.0" r="5" fill="#8b949e" stroke="#0d1117" stroke-width="2"/>
   <rect x="132.5" y="204.5" width="707" height="91" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="152" y="234" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">Java Task Manager</text>
+  <text x="152" y="234" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">MixGame</text>
   <rect x="760" y="220" width="60" height="20" rx="10" fill="none" stroke="#3fb950"/>
   <text x="790.0" y="234" text-anchor="middle" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600" fill="#3fb950">public</text>
-  <circle cx="733.4" cy="256" r="6" fill="none" stroke="#3b2e0a" stroke-width="2.4"/>
-  <circle cx="733.4" cy="256" r="6" fill="none" stroke="#d29922" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="11.3 37.7"><animateTransform attributeName="transform" type="rotate" from="0 733.4 256" to="360 733.4 256" dur="0.9s" repeatCount="indefinite"/></circle>
-  <text x="820" y="260.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#d29922">in progress</text>
-  <text x="820" y="282" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">a293393</text>
-  <text x="152" y="257" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">Tasks, deadlines and notifications, saved to CSV, tested with JUnit</text>
-  <text x="152" y="280" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">java · junit</text>
-  <text x="90" y="356.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Oct 2026</text>
+  <circle cx="746.6" cy="256" r="7" fill="#238636"><animate attributeName="r" values="7;8.2;7;7" keyTimes="0;0.12;0.25;1" dur="3s" repeatCount="indefinite"/></circle>
+  <path d="M743.0 256.2l2.5 2.6 4.9-5.4" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12" stroke-dashoffset="12"><animate attributeName="stroke-dashoffset" values="12;0;0" keyTimes="0;0.2;1" dur="3s" repeatCount="indefinite"/></path>
+  <text x="820" y="260.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#3fb950">completed</text>
+  <text x="820" y="282" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">b2b9cb8</text>
+  <text x="152" y="257" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">101 Okey in the browser: tile dealing and opening-score analysis</text>
+  <text x="152" y="280" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">typescript · react · vite</text>
+  <text x="90" y="356.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">May 2026</text>
   <circle cx="108" cy="352.0" r="5" fill="#8b949e" stroke="#0d1117" stroke-width="2"/>
   <rect x="132.5" y="306.5" width="707" height="91" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="152" y="336" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">SonSatır</text>
-  <rect x="753" y="322" width="67" height="20" rx="10" fill="none" stroke="#8b949e"/>
-  <text x="786.5" y="336" text-anchor="middle" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600" fill="#8b949e">private</text>
-  <circle cx="733.4" cy="358" r="6" fill="none" stroke="#3b2e0a" stroke-width="2.4"/>
-  <circle cx="733.4" cy="358" r="6" fill="none" stroke="#d29922" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="11.3 37.7"><animateTransform attributeName="transform" type="rotate" from="0 733.4 358" to="360 733.4 358" dur="0.9s" repeatCount="indefinite"/></circle>
-  <text x="820" y="362.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#d29922">in progress</text>
-  <text x="152" y="359" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">Turkish typing race with a one-minute timer mode and a shared leaderboard</text>
-  <text x="152" y="382" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">javascript · python · sqlite</text>
-  <text x="90" y="458.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Oct 2026</text>
+  <text x="152" y="336" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">Airport Flight Management System</text>
+  <rect x="760" y="322" width="60" height="20" rx="10" fill="none" stroke="#3fb950"/>
+  <text x="790.0" y="336" text-anchor="middle" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600" fill="#3fb950">public</text>
+  <circle cx="746.6" cy="358" r="7" fill="#238636"><animate attributeName="r" values="7;8.2;7;7" keyTimes="0;0.12;0.25;1" dur="3s" repeatCount="indefinite"/></circle>
+  <path d="M743.0 358.2l2.5 2.6 4.9-5.4" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12" stroke-dashoffset="12"><animate attributeName="stroke-dashoffset" values="12;0;0" keyTimes="0;0.2;1" dur="3s" repeatCount="indefinite"/></path>
+  <text x="820" y="362.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#3fb950">completed</text>
+  <text x="820" y="384" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">b32458b</text>
+  <text x="152" y="359" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">Admin, pilot and cabin crew roles, with schedule-conflict checks</text>
+  <text x="152" y="382" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">python · flask · sqlite · pytest</text>
+  <text x="90" y="458.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">May 2026</text>
   <circle cx="108" cy="454.0" r="5" fill="#8b949e" stroke="#0d1117" stroke-width="2"/>
   <rect x="132.5" y="408.5" width="707" height="91" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="152" y="438" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">Pin-Kod</text>
+  <text x="152" y="438" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">ADAS Parking Simulation</text>
   <rect x="753" y="424" width="67" height="20" rx="10" fill="none" stroke="#8b949e"/>
   <text x="786.5" y="438" text-anchor="middle" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600" fill="#8b949e">private</text>
-  <circle cx="733.4" cy="460" r="6" fill="none" stroke="#3b2e0a" stroke-width="2.4"/>
-  <circle cx="733.4" cy="460" r="6" fill="none" stroke="#d29922" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="11.3 37.7"><animateTransform attributeName="transform" type="rotate" from="0 733.4 460" to="360 733.4 460" dur="0.9s" repeatCount="indefinite"/></circle>
-  <text x="820" y="464.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#d29922">in progress</text>
-  <text x="90" y="560.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Aug 2026</text>
+  <text x="743" y="438" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:500" fill="#8b949e">team project</text>
+  <circle cx="746.6" cy="460" r="7" fill="#238636"><animate attributeName="r" values="7;8.2;7;7" keyTimes="0;0.12;0.25;1" dur="3s" repeatCount="indefinite"/></circle>
+  <path d="M743.0 460.2l2.5 2.6 4.9-5.4" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12" stroke-dashoffset="12"><animate attributeName="stroke-dashoffset" values="12;0;0" keyTimes="0;0.2;1" dur="3s" repeatCount="indefinite"/></path>
+  <text x="820" y="464.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#3fb950">completed</text>
+  <text x="152" y="461" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">My part: rear camera, reverse mode and the sensor panel</text>
+  <text x="152" y="484" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">c++17 · raylib · cmake</text>
+  <text x="90" y="560.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Mar 2026</text>
   <circle cx="108" cy="556.0" r="5" fill="#8b949e" stroke="#0d1117" stroke-width="2"/>
   <rect x="132.5" y="510.5" width="707" height="91" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="152" y="540" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">MixGame</text>
+  <text x="152" y="540" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">TODO App</text>
   <rect x="760" y="526" width="60" height="20" rx="10" fill="none" stroke="#3fb950"/>
   <text x="790.0" y="540" text-anchor="middle" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600" fill="#3fb950">public</text>
   <circle cx="746.6" cy="562" r="7" fill="#238636"><animate attributeName="r" values="7;8.2;7;7" keyTimes="0;0.12;0.25;1" dur="3s" repeatCount="indefinite"/></circle>
   <path d="M743.0 562.2l2.5 2.6 4.9-5.4" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12" stroke-dashoffset="12"><animate attributeName="stroke-dashoffset" values="12;0;0" keyTimes="0;0.2;1" dur="3s" repeatCount="indefinite"/></path>
   <text x="820" y="566.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#3fb950">completed</text>
-  <text x="820" y="588" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">b2b9cb8</text>
-  <text x="152" y="563" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">101 Okey in the browser: tile dealing and opening-score analysis</text>
-  <text x="152" y="586" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">typescript · react · vite</text>
-  <text x="90" y="662.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">May 2026</text>
+  <text x="820" y="588" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">6497786</text>
+  <text x="152" y="563" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">To-do app with a FastAPI backend and a desktop launcher</text>
+  <text x="152" y="586" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">react · fastapi · sqlite</text>
+  <text x="90" y="662.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Jan 2026</text>
   <circle cx="108" cy="658.0" r="5" fill="#8b949e" stroke="#0d1117" stroke-width="2"/>
   <rect x="132.5" y="612.5" width="707" height="91" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="152" y="642" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">ADAS Parking Simulation</text>
-  <rect x="753" y="628" width="67" height="20" rx="10" fill="none" stroke="#8b949e"/>
-  <text x="786.5" y="642" text-anchor="middle" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600" fill="#8b949e">private</text>
-  <text x="743" y="642" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:500" fill="#8b949e">team project</text>
+  <text x="152" y="642" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">Java Task Manager</text>
+  <rect x="760" y="628" width="60" height="20" rx="10" fill="none" stroke="#3fb950"/>
+  <text x="790.0" y="642" text-anchor="middle" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600" fill="#3fb950">public</text>
   <circle cx="746.6" cy="664" r="7" fill="#238636"><animate attributeName="r" values="7;8.2;7;7" keyTimes="0;0.12;0.25;1" dur="3s" repeatCount="indefinite"/></circle>
   <path d="M743.0 664.2l2.5 2.6 4.9-5.4" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12" stroke-dashoffset="12"><animate attributeName="stroke-dashoffset" values="12;0;0" keyTimes="0;0.2;1" dur="3s" repeatCount="indefinite"/></path>
   <text x="820" y="668.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#3fb950">completed</text>
-  <text x="152" y="665" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">My part: rear camera, reverse mode and the sensor panel</text>
-  <text x="152" y="688" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">c++17 · raylib · cmake</text>
+  <text x="820" y="690" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">a293393</text>
+  <text x="152" y="665" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">Tasks, deadlines and notifications, saved to CSV, tested with JUnit</text>
+  <text x="152" y="688" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">java · junit</text>
   <text x="90" y="764.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Aug 2025</text>
   <circle cx="108" cy="760.0" r="5" fill="#8b949e" stroke="#0d1117" stroke-width="2"/>
   <rect x="132.5" y="714.5" width="707" height="91" rx="8" fill="#161b22" stroke="#30363d"/>
