@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="806" viewBox="0 0 840 806" role="img" aria-label="Project history: SonSatır (in progress), Pin-Kod (in progress), MixGame (completed), Airport Flight Management System (completed), ADAS Parking Simulation (completed), TODO App (completed), Java Task Manager (completed), First commit (completed)">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="806" viewBox="0 0 840 806" role="img" aria-label="Project history: SonSatır (in progress), Pin-Kod (in progress), MixGame (paused), Airport Flight Management System (completed), ADAS Parking Simulation (completed), TODO App (completed), Java Task Manager (completed), First commit (completed)">
   <line x1="108" y1="46.0" x2="108" y2="760.0" stroke="#d0d7de" stroke-width="2"/>
   <text x="90" y="50.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#59636e">Oct 2026</text>
   <circle cx="108" cy="46.0" r="5" fill="#59636e" stroke="#ffffff" stroke-width="2"/>
@@ -26,9 +26,10 @@
   <text x="152" y="234" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#1f2328">MixGame</text>
   <rect x="760" y="220" width="60" height="20" rx="10" fill="none" stroke="#1a7f37"/>
   <text x="790.0" y="234" text-anchor="middle" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600" fill="#1a7f37">public</text>
-  <circle cx="746.6" cy="256" r="7" fill="#1f883d"><animate attributeName="r" values="7;8.2;7;7" keyTimes="0;0.12;0.25;1" dur="3s" repeatCount="indefinite"/></circle>
-  <path d="M743.0 256.2l2.5 2.6 4.9-5.4" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12" stroke-dashoffset="12"><animate attributeName="stroke-dashoffset" values="12;0;0" keyTimes="0;0.2;1" dur="3s" repeatCount="indefinite"/></path>
-  <text x="820" y="260.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#1a7f37">completed</text>
+  <g><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/><circle cx="766.4" cy="256" r="6" fill="none" stroke="#0969da" stroke-width="2"/>
+  <rect x="763.8" y="253" width="1.8" height="6" rx="0.6" fill="#0969da"/>
+  <rect x="767.1999999999999" y="253" width="1.8" height="6" rx="0.6" fill="#0969da"/></g>
+  <text x="820" y="260.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#0969da">paused</text>
   <text x="820" y="282" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#818b98">b2b9cb8</text>
   <text x="152" y="257" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#59636e">101 Okey in the browser: tile dealing and opening-score analysis</text>
   <text x="152" y="280" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#818b98">typescript · react · vite</text>
