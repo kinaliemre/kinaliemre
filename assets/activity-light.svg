@@ -33,9 +33,9 @@
   <rect x="459.0" y="56" width="18" height="18" rx="3" fill="#216e39"/>
   <text x="468.0" y="96" text-anchor="middle" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:11px;font-weight:600" fill="#424a53">9</text>
   <rect x="483.0" y="56" width="18" height="18" rx="3" fill="#ebedf0"/>
-  <rect x="480.5" y="53.5" width="23" height="23" rx="5" fill="none" stroke="#59636e" stroke-width="1.5"/>
-  <text x="492.0" y="96" text-anchor="middle" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:11px;font-weight:400" fill="#424a53">19</text>
-  <rect x="507.5" y="56.5" width="17" height="17" rx="3" fill="none" stroke="#ebedf0"/>
+  <rect x="507.0" y="56" width="18" height="18" rx="3" fill="#ebedf0"/>
+  <rect x="504.5" y="53.5" width="23" height="23" rx="5" fill="none" stroke="#59636e" stroke-width="1.5"/>
+  <text x="516.0" y="96" text-anchor="middle" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:11px;font-weight:400" fill="#424a53">20</text>
   <rect x="531.5" y="56.5" width="17" height="17" rx="3" fill="none" stroke="#ebedf0"/>
   <rect x="555.5" y="56.5" width="17" height="17" rx="3" fill="none" stroke="#ebedf0"/>
   <rect x="579.5" y="56.5" width="17" height="17" rx="3" fill="none" stroke="#ebedf0"/>
@@ -50,5 +50,5 @@
   <text x="780.0" y="96" text-anchor="middle" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:11px;font-weight:400" fill="#818b98">31</text>
   <line x1="51.0" y1="110" x2="789.0" y2="110" stroke="#d0d7de"/>
   <text x="51.0" y="133" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#424a53">85 commits on 11 days so far. Busiest day: Oct 5 (16). Mostly on SonSatır and Pin-Kod.</text>
-  <text x="789.0" y="133" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:400" fill="#818b98">updated Oct 19</text>
+  <text x="789.0" y="133" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:400" fill="#818b98">updated Oct 20</text>
 </svg>
