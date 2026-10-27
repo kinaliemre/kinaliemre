@@ -1,25 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="1010" viewBox="0 0 840 1010" role="img" aria-label="Project history: sirali-mesajlasma (in progress), SonSatır (in progress), train-station-project (in progress), Pin-Kod (in progress), MixGame (paused), Airport Flight Management System (completed), ADAS Parking Simulation (completed), TODO App (completed), Java Task Manager (completed), First commit (completed)">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="1010" viewBox="0 0 840 1010" role="img" aria-label="Project history: SonSatır (in progress), sirali-mesajlasma (in progress), train-station-project (in progress), Pin-Kod (in progress), MixGame (paused), Airport Flight Management System (completed), ADAS Parking Simulation (completed), TODO App (completed), Java Task Manager (completed), First commit (completed)">
   <line x1="108" y1="46.0" x2="108" y2="964.0" stroke="#30363d" stroke-width="2"/>
   <text x="90" y="50.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Oct 2026</text>
   <circle cx="108" cy="46.0" r="5" fill="#8b949e" stroke="#0d1117" stroke-width="2"/>
   <rect x="132.5" y="0.5" width="707" height="91" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="152" y="30" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">sirali-mesajlasma</text>
+  <text x="152" y="30" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">SonSatır</text>
   <rect x="753" y="16" width="67" height="20" rx="10" fill="none" stroke="#8b949e"/>
   <text x="786.5" y="30" text-anchor="middle" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600" fill="#8b949e">private</text>
   <circle cx="733.4" cy="52" r="6" fill="none" stroke="#3b2e0a" stroke-width="2.4"/>
   <circle cx="733.4" cy="52" r="6" fill="none" stroke="#d29922" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="11.3 37.7"><animateTransform attributeName="transform" type="rotate" from="0 733.4 52" to="360 733.4 52" dur="0.9s" repeatCount="indefinite"/></circle>
   <text x="820" y="56.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#d29922">in progress</text>
+  <text x="152" y="53" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">Turkish typing race with a one-minute timer mode and a shared leaderboard</text>
+  <text x="152" y="76" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">javascript · python · sqlite</text>
   <text x="90" y="152.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Oct 2026</text>
   <circle cx="108" cy="148.0" r="5" fill="#8b949e" stroke="#0d1117" stroke-width="2"/>
   <rect x="132.5" y="102.5" width="707" height="91" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="152" y="132" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">SonSatır</text>
+  <text x="152" y="132" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15.5px;font-weight:600" fill="#e6edf3">sirali-mesajlasma</text>
   <rect x="753" y="118" width="67" height="20" rx="10" fill="none" stroke="#8b949e"/>
   <text x="786.5" y="132" text-anchor="middle" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600" fill="#8b949e">private</text>
   <circle cx="733.4" cy="154" r="6" fill="none" stroke="#3b2e0a" stroke-width="2.4"/>
   <circle cx="733.4" cy="154" r="6" fill="none" stroke="#d29922" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="11.3 37.7"><animateTransform attributeName="transform" type="rotate" from="0 733.4 154" to="360 733.4 154" dur="0.9s" repeatCount="indefinite"/></circle>
   <text x="820" y="158.5" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600" fill="#d29922">in progress</text>
-  <text x="152" y="155" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#8b949e">Turkish typing race with a one-minute timer mode and a shared leaderboard</text>
-  <text x="152" y="178" text-anchor="start" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:400" fill="#6e7681">javascript · python · sqlite</text>
   <text x="90" y="254.0" text-anchor="end" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:12px;font-weight:500" fill="#8b949e">Oct 2026</text>
   <circle cx="108" cy="250.0" r="5" fill="#8b949e" stroke="#0d1117" stroke-width="2"/>
   <rect x="132.5" y="204.5" width="707" height="91" rx="8" fill="#161b22" stroke="#30363d"/>
