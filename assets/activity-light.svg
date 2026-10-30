@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="150" viewBox="0 0 840 150" role="img" aria-label="October 2026: 170 commits on 18 days so far. Busiest day: Oct 27 (36). Mostly on SonSatır and sirali-mesajlasma.">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="150" viewBox="0 0 840 150" role="img" aria-label="October 2026: 174 commits on 18 days so far. Busiest day: Oct 27 (36). Mostly on SonSatır and sirali-mesajlasma.">
   <rect x="0.5" y="0.5" width="839" height="149" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
   <text x="51.0" y="36" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15px;font-weight:600" fill="#1f2328">October 2026</text>
-  <text x="789.0" y="36" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13px;font-weight:400" fill="#59636e">170 commits · 18 active days</text>
+  <text x="789.0" y="36" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13px;font-weight:400" fill="#59636e">174 commits · 18 active days</text>
   <rect x="51.0" y="56" width="18" height="18" rx="3" fill="#ebedf0"/>
   <text x="60.0" y="96" text-anchor="middle" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:11px;font-weight:400" fill="#818b98">1</text>
   <rect x="75.0" y="56" width="18" height="18" rx="3" fill="#216e39"/>
@@ -49,12 +49,12 @@
   <text x="708.0" y="96" text-anchor="middle" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:11px;font-weight:600" fill="#424a53">7</text>
   <rect x="723.0" y="56" width="18" height="18" rx="3" fill="#30a14e"/>
   <text x="732.0" y="96" text-anchor="middle" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:11px;font-weight:600" fill="#424a53">5</text>
-  <rect x="747.0" y="56" width="18" height="18" rx="3" fill="#9be9a8"/>
+  <rect x="747.0" y="56" width="18" height="18" rx="3" fill="#30a14e"/>
   <rect x="744.5" y="53.5" width="23" height="23" rx="5" fill="none" stroke="#59636e" stroke-width="1.5"/>
-  <text x="756.0" y="96" text-anchor="middle" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:11px;font-weight:600" fill="#424a53">2</text>
+  <text x="756.0" y="96" text-anchor="middle" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:11px;font-weight:600" fill="#424a53">6</text>
   <rect x="771.5" y="56.5" width="17" height="17" rx="3" fill="none" stroke="#ebedf0"/>
   <text x="780.0" y="96" text-anchor="middle" xml:space="preserve" style="font-family:ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;font-size:11px;font-weight:400" fill="#818b98">31</text>
   <line x1="51.0" y1="110" x2="789.0" y2="110" stroke="#d0d7de"/>
-  <text x="51.0" y="133" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#424a53">170 commits on 18 days so far. Busiest day: Oct 27 (36). Mostly on SonSatır and sirali-mesajlasma.</text>
+  <text x="51.0" y="133" text-anchor="start" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;font-weight:400" fill="#424a53">174 commits on 18 days so far. Busiest day: Oct 27 (36). Mostly on SonSatır and sirali-mesajlasma.</text>
   <text x="789.0" y="133" text-anchor="end" xml:space="preserve" style="font-family:-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:400" fill="#818b98">updated Oct 30</text>
 </svg>
